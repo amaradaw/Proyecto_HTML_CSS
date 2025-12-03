@@ -5,3 +5,24 @@
     text-decoration: none;
     list-style: none;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    min-height: 88vh;
+    background-color: white;
+    padding: 70px 0;
+}
