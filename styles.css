@@ -123,3 +123,96 @@ th , td {
     flex-basis: 50%;
     text-align: center;
 }
+
+.header-txt h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 15px;
+}
+
+.header-txt p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.ofert {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofert-1 {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(33.3% - 15px);
+    background-color: white;
+    padding: 35px;
+}
+
+.ofert-img {
+    flex-basis: 50%;
+    margin-right: 15px;
+}
+
+.ofert-img img {
+   width: 250px;
+}
+
+.ofert-txt {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.ofert-txt h3 {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.product {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap : 50px;
+}
+
+.product {
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
