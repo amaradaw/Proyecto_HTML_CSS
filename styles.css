@@ -83,7 +83,7 @@ header {
     backdrop-filter: blur(10px);
     top : 100%;
     z-index: 1;
-    background-color: rgb(250, 172, 198);
+    background-color: rgb(254, 199, 217);
     padding: 20px;
     min-width: 400px;
 }
@@ -167,7 +167,7 @@ th , td {
 }
 
 .ofert-img img {
-   width: 250px;
+   width: 300px;
 }
 
 .ofert-txt {
@@ -192,12 +192,12 @@ th , td {
     font-size: 15px;
 }
 
-.product {
+.products {
     padding: 50px 0;
     text-align: center;
 }
 
-.product h2 {
+.products h2 {
     font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -215,4 +215,18 @@ th , td {
     text-align: center;
     padding: 30px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 250px;
+    height: 370px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 20px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
