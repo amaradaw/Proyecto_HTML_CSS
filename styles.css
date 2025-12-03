@@ -85,5 +85,41 @@ header {
     z-index: 1;
     background-color: rgb(250, 172, 198);
     padding: 20px;
-    min-height: 400px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th , td {
+    color: aliceblue;
+}
+
+.borrar {
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.header-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    text-align: center;
 }
