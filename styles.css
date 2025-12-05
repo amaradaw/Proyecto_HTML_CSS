@@ -254,7 +254,7 @@ th , td {
     align-items: center;
     justify-content: space-between;
     padding: 25px;
-    background-color: rgb(255, 206, 214)
+    background-color: rgb(255, 206, 214);
 }
 
 .icon-txt h3 {
@@ -289,4 +289,34 @@ th , td {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+
+.blog-1 p {
+    font-size: 16px;
+    color: black;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: rgb(255, 206, 214);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: blanchedalmond;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 16px;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
 }
