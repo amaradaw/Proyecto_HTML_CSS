@@ -338,4 +338,12 @@ th , td {
         background-color: black;
         display: none;
     }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    .menu ul li a {
+        color: white;
+    }
 }
