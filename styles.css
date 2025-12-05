@@ -320,3 +320,22 @@ th , td {
     display: block;
     margin-bottom: 10px;
 }
+
+@media (max-width: 991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top : 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+}
