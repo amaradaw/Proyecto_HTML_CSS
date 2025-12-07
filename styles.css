@@ -155,15 +155,16 @@ th , td {
 
 .ofert-1 {
     display: flex;
+    flex-basis: calc(33.3% - 20px);
     align-items: center;
-    flex-basis: calc(33.3% - 15px);
-    background-color: white;
+    background-color: rgb(255, 224, 230);
     padding: 35px;
 }
 
 .ofert-img {
     flex-basis: 50%;
     margin-right: 15px;
+    margin-left: 300px;
 }
 
 .ofert-img img {
@@ -172,7 +173,7 @@ th , td {
 
 .ofert-txt {
     flex-basis: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .ofert-txt h3 {
@@ -180,7 +181,7 @@ th , td {
     color: black;
     font-size: 25px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .btn-2 {
