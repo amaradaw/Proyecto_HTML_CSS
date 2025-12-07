@@ -166,7 +166,6 @@ th , td {
     object-fit: cover;
 }
 
-/* PRODUCTOS */
 .products h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -202,9 +201,13 @@ th , td {
 .icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     margin: 60px 0;
+    padding-left: 300px;
 }
+ 
+
 
 .icon-1 {
     display: flex;
