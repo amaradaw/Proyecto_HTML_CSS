@@ -197,7 +197,7 @@ th , td {
     font-weight: bold;
 }
 
-/* ICONOS */
+
 .icons {
     display: flex;
     justify-content: center;
@@ -215,7 +215,6 @@ th , td {
     width: 40px;
 }
 
-/* BLOG */
 .blog {
     display: flex;
     justify-content: space-between;
@@ -235,7 +234,6 @@ th , td {
     object-fit: cover;
 }
 
-/* FOOTER */
 .footer {
     background: #000;
     color: #fff;
@@ -255,7 +253,6 @@ th , td {
     margin-bottom: 10px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
 
     .header-content {
