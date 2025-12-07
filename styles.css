@@ -117,6 +117,7 @@ th , td {
 }
 
 .header-txt {
+    font-size: 30px;
     flex-basis: 50%;
     text-align: center;
 }
