@@ -346,4 +346,8 @@ th , td {
     .menu ul li a {
         color: white;
     }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
 }
