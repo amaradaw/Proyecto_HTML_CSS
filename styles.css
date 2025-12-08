@@ -148,6 +148,12 @@ th , td {
     border-radius: 5px;
 }
 
+.btn-1:hover {
+    background-color: rgb(80, 78, 78);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
 .ofert-container {
     display: flex;
     justify-content: space-between;
