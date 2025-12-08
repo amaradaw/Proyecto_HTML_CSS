@@ -8,7 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
-    background-color: rgb(249, 233, 233);
+    background-color: rgb(246, 228, 228);
 }
 
 
@@ -25,6 +25,12 @@ header {
     background-color: rgb(251, 213, 213);
     border: 1px solid black;
     padding: 70px 0;
+}
+
+.navbar li:hover {
+    background-color: rgb(80, 78, 78);
+    transition: 0.3s;
+    border-radius: 5px;
 }
 
 .menu {
