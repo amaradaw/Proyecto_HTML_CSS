@@ -63,6 +63,7 @@ header {
     font-size: 18px;
     padding: 20px;
     display: block;
+    text-decoration: none;
 }
 
 #menu {
@@ -155,6 +156,7 @@ th , td {
     background-color: black;
     color: aliceblue;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-2 {
@@ -163,6 +165,7 @@ th , td {
     background-color: black;
     color: aliceblue;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-1:hover {
