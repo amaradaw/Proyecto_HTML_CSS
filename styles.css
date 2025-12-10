@@ -178,9 +178,8 @@ th , td {
 }
 
 .ofert-1 img {
-    width: 50%;
-    height: 200px;
-    object-fit: cover;
+    width: 40%;
+    height: 120px;
 }
 
 .products h2 {
