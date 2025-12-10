@@ -152,6 +152,14 @@ th , td {
     border-radius: 5px;
 }
 
+.btn-2 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
 .btn-1:hover {
     background-color: rgb(80, 78, 78);
     transition: 0.3s;
